@@ -14,7 +14,7 @@ To turn the LED's on and off, the port's data register (PORTH) can be driven hig
 
 ## 4x4 keyboard
 
-As indicated in the schematic, upon pressing the button, the connected pin will be driven low, otherwise it will be pulled high.
-In order to read the state of the key, the respective pin has to be set as sink by setting DDRE as output and driving the PORT data pin low. The state can then be read using the input data register (PINE).
+I don't think it's necessary to write another guide on the logic behind the 4x4 keyboard as there are countless guides online.
+What I can offer is a visual representation of how it works, in the assets folder you'll find a falstad circuit which you can run on https://www.falstad.com/circuit/ (File >> Open file)
 
 ![Datasheet_Debounced_Key](assets/Datasheet_4x4.PNG)
